@@ -16,13 +16,13 @@ Press "enter" key to quit
 ## Endroll
 Press "enter" key to go back to the title screen
 # URL
-[Link](https://meg-1126.github.io/rpg/title.html)
+[Play Game](https://meg-1126.github.io/rpg/title.html)
 # Reference & Resources
 Thank you very much for sharing your amazing knowledge and materials!
-[オリジナルゲーム.com](https://original-game.com/make-an-rpg-with-javascript/)
-[【RPG編】JavaScriptゲームプログラミング初級](https://youtube.com/playlist?list=PLJ86MSrhnFKVcfaffKPYkvfkPg4qRsijs)
-[MusMus(BGM)](https://musmus.main.jp/music_game.html)
-[PixelGaro](https://hpgpixer.jp/)
-[DOTOWN](https://dotown.maeda-design-room.net/)
-[プログラム学習帳](https://prog.temochic.com/endroll-sample/)
+- [オリジナルゲーム.com](https://original-game.com/make-an-rpg-with-javascript/)
+- [【RPG編】JavaScriptゲームプログラミング初級](https://youtube.com/playlist?list=PLJ86MSrhnFKVcfaffKPYkvfkPg4qRsijs)
+- [MusMus(BGM)](https://musmus.main.jp/music_game.html)
+- [PixelGaro](https://hpgpixer.jp/)
+- [DOTOWN](https://dotown.maeda-design-room.net/)
+- [プログラム学習帳](https://prog.temochic.com/endroll-sample/)
 
