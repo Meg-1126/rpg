@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROAD TO WEB DEVELOPER - BATTLE</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="styles/battle.css" />
+  </head>
+  <body>
+    <!-- <audio id="bgm"  src = "sounds/music-title.mp3" controls autoplay muted></audio> -->
+    <audio id="bgm-battle" src="sounds/music-battle.mp3" controls></audio>
+    <div id="battle-wrapper">
+      <div id="message-window">
+        <p id="battle-message">Enemy appeared!</p>
+      </div>
+      <div id="enemy-wrapper">
+        <div id="pc">
+          <img
+            id="img-pc"
+            src="images/img-desktop.gif"
+            alt="Desktop computer"
+          />
+        </div>
+        <div id="smartphone">
+          <img
+            id="img-smartphone"
+            src="images/img-mobile.gif"
+            alt="Smartphone"
+          />
+        </div>
+        <div id="engineer">
+          <img
+            id="img-engineer"
+            src="images/img-businessperson.gif"
+            alt="Engineer"
+          />
+        </div>
+      </div>
+      <div id="menu-wrapper">
+        <div id="status">
+          <p id="name">Hero</p>
+          <p id="hp"></p>
+        </div>
+        <div id="command">
+          <p id="attack">>Attack(a)</p>
+          <p id="escape">Escape(z)</p>
+        </div>
+      </div>
+      <div id="gameclear">
+        <p class="txt-clear">YOU WIN!</p>
+        <p class="txt-quit">Press enter to quit.</p>
+      </div>
+      <div id="gameover">
+        <p class="txt-gameover">GAME OVER</p>
+        <p class="txt-quit">Press enter to quit.</p>
+      </div>
+    </div>
+    <script src="scripts/battle.js"></script>
+  </body>
+</html>

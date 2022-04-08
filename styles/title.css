@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.heading-title {
+  font-size: 60px;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  animation: blink 3s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {opacity: 0;}
+  /* 50%{opacity: 0.5;} */
+  100%{opacity: 1;}
+}
+
+.title-wrapper {
+  background-color: #000;
+  width: 640px;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#btn-start {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+}
+
+#btn-start:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.img-hero {
+  height: 60px;
+  width: 60px;
+  margin-top: 40px;
+}

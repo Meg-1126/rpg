@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+#battle-wrapper {
+  background-color: #000;
+  width: 640px;
+  height: 640px;
+}
+
+#message-window {
+  width: 400px;
+  height: 130px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#enemy-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#img-pc {
+  width: 150px;
+  height: 150px;
+  /* display: none; */
+}
+
+#img-smartphone {
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+
+#img-engineer {
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+
+#menu-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+#status {
+  width: 160px;
+  height: 210px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  /* margin: 70px auto; */
+}
+
+#command {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  /* margin: 70px auto; */
+}
+
+#gameclear {
+  width: 500px;
+  height: 300px;
+  background-color: yellowgreen;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  display: none;
+}
+
+#gameover {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  display: none;
+}
+
+.txt-clear {
+  font-size: 60px;
+}
+
+.txt-gameover {
+   font-size: 60px;
+}
+
+
