@@ -7,4 +7,4 @@ Since he has to study really hard, he can't go outside... (at least, for now!)
 Purpose of this game is to train your mind. 
 Don't give in to temptation, such as social media, friends invitation, etc. 
 # URL
-[Link](https://meg-1126.github.io/rpg/)
+[Link](https://meg-1126.github.io/rpg/title.html)
