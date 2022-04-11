@@ -6,6 +6,8 @@ A player is a student who is studying to become a web developer.
 Since he has to study really hard, he can't go outside... (at least, for now!)
 Purpose of this game is to train your mind. 
 Don't give in to temptation, such as social media, TV show, friends invitation, etc. 
+# Demo
+https://user-images.githubusercontent.com/73773287/162674017-db112ed6-f225-4b1a-aa14-ace6c22237e7.mp4
 # How to play
 ## Walk
 Press arrow keys (left, up, right, down) to walk
