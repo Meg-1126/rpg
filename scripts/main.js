@@ -1,12 +1,9 @@
 let ctx;
-let encounterRate = 0;
 let flower = new Image(); flower.src = "images/img-flowers.png";
-let gFrame = 0;//Internal counter
 let gMessage = null;
 let mainScreen;
 let pc = new Image(); pc.src = "images/img-desktop.gif";
 let phone = new Image(); phone.src = "images/img-mobile.gif";
-let bScreen; // Battle screen
 
 //Object: hero
 let hero = new Object();
@@ -23,14 +20,6 @@ mapchip.src = "images/img-tile.webp";
 //Image object: mapchip2
 let mapchip2 = new Image();
 mapchip2.src = "images/img-tile2.webp";
-
-//Object: Keyboard
-let key = new Object();
-key.up = false;
-key.down = false;
-key.right = false;
-key.left = false;
-key.push = '';
 
 //Canvas setting
 mainScreen = document.getElementById("main");
@@ -193,7 +182,6 @@ function Battle ()
           alert("Stop! You can't escape from this house! Just focus on your study, ok?");
           hero.y +=32;
         }
-
       }
     }
    }
@@ -246,33 +234,19 @@ function Battle ()
 //Onload event
   window.onload = function ()
   {
-    // ctx.fillStyle = "rgb(0, 0, 0)";
-    // ctx.fillRect(0, 0, 640, 640);
-  
+    //Load music
+    // let sound = new Howl({
+    //   src: ['sounds/music-main.mp3']
+    // });
+    // sound.play();
+
     //Load tile map
     DrawTile();  
     // //Load characters
     LoadImage();
-    
-    // Load Window Message
-    // DrawMessage (ctx);
 
     //Draw hero
     ctx.drawImage(hero.img, hero.x, hero.y);
-    
-    let x = hero.x/32;
-    let y = hero.y/32;
-    if(map[y][x] === 3)
-    {
-      alert("You can't escape from the room!");
-    }
-
-   
-
-    // SetMessage("Hi!");
-    // setInterval(function(){DrawMessage(ctx)}, 33);
-
-    
   }
 
     
