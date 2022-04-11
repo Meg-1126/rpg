@@ -14,13 +14,16 @@ let msgEscape = "Escape failed! Don't get away from studying!";
 window.onload = function ()
   {
     //Play audio
-     window.addEventListener('DOMContentLoaded', function(){
-      const audioElement = document.querySelector("audio");
-      audioElement.addEventListener('loadeddata', (e)=> {
-      audioElement.muted = true;
-      audioElement.autoplay = true;
-      });
-    });
+    let audio = null;
+    document.body.addEventListener('click', () => {
+      audio = new Audio("sounds/music-battle.mp3");
+    }, {once: true});
+
+    setInterval(() => {
+      if(audio) {
+        audio.play();
+      }
+    }, 1000);
 
     //Add HP on status window
     let status = document.getElementById("hp");

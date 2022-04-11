@@ -1,15 +1,20 @@
 //Onload event
 window.onload = function () 
 {
-  let startBtn = document.getElementById("btn-start");
-  startBtn.addEventListener("click", startBtnSound);
-  startBtn.addEventListener("click", goToMain);
-}
+  // Load music
+  let audio = null;
+  document.body.addEventListener('click', () => {
+    audio = new Audio("sounds/music-title.mp3");
+  }, {once: true});
 
-function startBtnSound () {
-  const audio = new Audio();
-  audio.src = "sounds/music-btn-start.mp3";
-  audio.play();
+  setInterval(() => {
+    if(audio) {
+      audio.play();
+    }
+  }, 1000);
+
+  let startBtn = document.getElementById("btn-start");
+  startBtn.addEventListener("click", goToMain);
 }
 
 function goToMain () {

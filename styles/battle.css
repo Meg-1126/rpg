@@ -103,4 +103,12 @@ p {
    font-size: 60px;
 }
 
+.description {
+  margin-top: 10px;
+}
+
+.description p {
+  font-size: 11px;
+}
+
 

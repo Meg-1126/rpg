@@ -234,7 +234,17 @@ function Battle ()
 //Onload event
   window.onload = function ()
   {
-    //Load music
+    // Load music
+    let audio = null;
+    document.body.addEventListener('click', () => {
+      audio = new Audio("sounds/music-main.mp3");
+    }, {once: true});
+
+    setInterval(() => {
+      if(audio) {
+        audio.play();
+      }
+    }, 1000);
     // let sound = new Howl({
     //   src: ['sounds/music-main.mp3']
     // });
